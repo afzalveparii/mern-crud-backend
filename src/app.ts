@@ -13,7 +13,7 @@ const app: Express = express();
 const PORT: number = parseInt(process.env.PORT || '6010', 10);
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://your-production-domain.com"],
+  origin: ["http://localhost:3000", "https://mern-crud-app-by-afzal.netlify.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
